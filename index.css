@@ -69,6 +69,11 @@ a{
     height: auto;
 }
 
+@-ms-viewport{
+    .svg1{
+        viewport-fit: cover;
+    }
+}
 
 @media only screen and (orientation:portrait) {
     .svg1{
