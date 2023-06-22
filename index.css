@@ -39,7 +39,7 @@ p{
 .miname{
     padding-top:1rem ;
     padding-left: 3rem;
-    font-size: 3rem;
+    font-size: 3vw;
 }
 
 ul, li{
@@ -58,7 +58,7 @@ a{
     font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 3vw;
 }
 
 .svg1{
@@ -68,18 +68,6 @@ a{
     width: 100%;
     height: auto;
 }
-
-
-
-@media only screen and (orientation:portrait) {
-    .svg1{
-        width:  auto;
-        height: 100%;
-        
-    }
-}
-
-
 
 .w0{animation:anim0 25s infinite forwards;}
 
@@ -152,8 +140,78 @@ a{
 }
 
 .div7{
-    
-
     align-self: flex-end;
     position: absolute;
+}
+
+@media only screen and (orientation:portrait) {
+    .svg1{
+        width:  auto;
+        height: 100%;
+        
+    }
+
+    .div1{
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .div2{
+        width: fit-content;
+        justify-content: center;
+        display: flex;
+        padding-left: 3vw;
+    }
+
+    .miname {
+        font-size: 7vw;
+        padding-left: 0px;
+    }
+
+    li{
+        padding: 0px;
+        margin: 0%;
+    }
+
+    ul{
+        justify-content: space-between;
+        gap: 3vw;
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    nav{
+        padding: 0px;
+    }
+
+    a{
+        font-size: 5vw;
+    }
+
+    .div6{
+        bottom: 7vh;
+        width: 70vw;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        flex-direction: column;
+        padding-left: 5vw;
+    }
+
+    .div4{
+        z-index: -1;
+        position: absolute;
+        left: 2vw;
+        bottom: 20vh;
+        height: 40vw;
+        width: 40vw;
+        margin-left: 0vw;
+    }
+
+    .div5{
+        height: 15vh;
+        
+    }
 }
