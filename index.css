@@ -1,8 +1,8 @@
 html, body{
     overflow-x: hidden;
     overflow-y: hidden;
-    height: 100vh;
     overflow: hidden;
+    height: 100vh;
     margin: 0px;
     z-index: -2;
 }
@@ -15,11 +15,11 @@ body {
   }
 
 .div1{
+    align-content: stretch;
     position: absolute;
+    display: flex;
     height: auto;
     width: 100%;
-    display: flex;
-    align-content: stretch;
 }
 
 .div2{
@@ -122,8 +122,8 @@ a{
 
 .div6{
     border-radius: 89% 11% 75% 25% / 51% 72% 28% 49% ;
-    padding-right: 1rem;
     border: 3px solid #674dc7;
+    padding-right: 1rem;
     align-items: center;
     position: absolute;
     display: flex;
@@ -152,22 +152,22 @@ a{
     }
 
     .div1{
-        height: auto;
-        display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        display: flex;
+        height: auto;
     }
     
     .div2{
-        width: fit-content;
         justify-content: center;
-        display: flex;
+        width: fit-content;
         padding-left: 3vw;
+        display: flex;
     }
 
     .miname {
-        font-size: 7vw;
         padding-left: 0px;
+        font-size: 7vw;
     }
 
     li{
@@ -177,10 +177,10 @@ a{
 
     ul{
         justify-content: space-between;
-        gap: 3vw;
         display: flex;
-        margin: 0px;
         padding: 0px;
+        margin: 0px;
+        gap: 3vw;
     }
 
     nav{
@@ -192,22 +192,22 @@ a{
     }
 
     .div6{
-        bottom: 7vh;
-        width: 70vw;
-        left: 50%;
         transform: translate(-50%, 0%);
         flex-direction: column;
         padding-left: 5vw;
+        bottom: 20vh;
+        width: 70vw;
+        left: 50%;
     }
 
     .div4{
-        z-index: -1;
         position: absolute;
-        left: 2vw;
-        bottom: 20vh;
-        height: 40vw;
-        width: 40vw;
         margin-left: 0vw;
+        bottom: 15vh;
+        height: 50vw;
+        z-index: -1;
+        width: 50vw;
+        left: 2vw;
     }
 
     .div5{
