@@ -1,5 +1,5 @@
 html, body{
-    overflow-y: hidden;
+    overflow: hidden;
     margin: 0px;
     z-index: -2;
 }
@@ -59,6 +59,7 @@ a{
 }
 
 .svg1{
+    overflow: hidden;
     position: absolute;
     z-index: -1;
     width: 100%;
