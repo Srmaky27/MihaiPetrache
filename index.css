@@ -15,7 +15,7 @@ body {
   }
 
 .div1{
-    
+    position: absolute;
     height: auto;
     width: 100%;
     display: flex;
@@ -62,23 +62,17 @@ a{
 }
 
 .svg1{
+    
     overflow: hidden;
-    position: absolute;
-    z-index: -1;
+    position: static;
     width: 100%;
     height: auto;
 }
 
-@-ms-viewport{
-    .svg1{
-        viewport-fit: cover;
-    }
-}
+
 
 @media only screen and (orientation:portrait) {
     .svg1{
-        position: absolute;
-        z-index: -1;
         width:  auto;
         height: 100%;
         
